@@ -74,7 +74,7 @@
     .container{
         margin: 120px 80px 50px;
     }
-};
+}
 @media (max-width: 1000px) {
     .container{
         flex-direction: column;
@@ -87,7 +87,7 @@
     .textContainer{
         margin: 0;
     }
-};
+}
 @media (max-width: 768px) {
     .container{
         margin: 120px 40px 50px;

@@ -13,6 +13,7 @@ const ProductDetails = () => {
     const data = useContext(productsContext)
     const product = data[params.id - 1]
     const {image, title, price, description, category} = product;
+    
     return (
         <div className={styles.container}>
             <img className={styles.image} src={image} alt="product" />
